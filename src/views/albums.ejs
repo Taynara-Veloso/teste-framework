@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("./partials/head.ejs"); %>
+        <title>Albums</title>
+    </head>
+    <body>
+        <header><%- include("./partials/header.ejs"); %></header>
+        <main>
+            <div class="container" style="padding: 30px">
+                <%- include("./partials/table.ejs"); %>
+                <div id="pagination-wrapper"></div>
+            </div>
+        </main>
+    </body>
+    <script src="/albums.js"></script>
+</html>
